@@ -27,6 +27,7 @@
       "installPaths": [
         "C:\\Program Files\\Notepad++\\notepad++.exe"
       ]
+      "processNames": ["notepad++.exe"]
     },
     {
       "name": "Google Chrome",
