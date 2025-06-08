@@ -21,9 +21,10 @@
     },
     {
       "name": "Discord",
-      "chocoCommand": "discord",
       "description": "Дискорд",
       "iconPath": "discord.png",
+      "googleDriveUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9194/DiscordSetup.exe",
+      "installerFilename": "DiscordSetup.exe",
       "installPaths": [
         "C:\\Users\\%USERNAME%\\AppData\\Local\\Discord"
       ]
