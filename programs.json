@@ -46,7 +46,7 @@
       "googleDriveUrl": "https://drive.usercontent.google.com/download?id=1Q3bSRFcqmJP5TCUP8-PBvh56BtHqZp-3&export=download&confirm=t&uuid=5da22065-ef32-4aad-a1e3-82d3be78d175",
       "installerFilename": "reaplugs236_x64-install.exe",
       "installPaths": [
-        "C:\\Program Files\\VSTPlugins\\reaplugs\\reaplugs.dll",
+        "C:\\Program Files\\VSTPlugins\\ReaPlugs",
         "C:\\Program Files (x86)\\VSTPlugins\\reaplugs\\reaplugs.dll",
         "C:\\Program Files\\Common Files\\VST2\\reaplugs.dll",
         "C:\\Program Files (x86)\\Common Files\\VST2\\reaplugs.dll"
