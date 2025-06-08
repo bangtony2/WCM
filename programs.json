@@ -55,6 +55,8 @@
     },
     {
       "name": "Vencord",
+      "open": true,
+      "openpath": "C:\\Users\\%USERNAME%\\Documents\\app-config\\VencordInstaller.exe", 
       "folderdelete": false,
       "description": "Мод для дискорда",
       "iconPath": "vencord.png",
