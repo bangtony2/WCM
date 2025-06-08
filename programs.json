@@ -40,6 +40,15 @@
       ]
     },
     {
+      "name": "Equalizer APO",
+      "chocoCommand": "equalizerapo",
+      "description": "Еквалайзер",
+      "iconPath": "googlechrome.png",
+      "installPaths": [
+        "C:\\Program Files\\EqualizerAPO\\Editor.exe",
+      ]
+    },
+    {
       "name": "ReaPlugs",
       "description": "VST плагины от Reaper",
       "iconPath": "googlechrome.png",
