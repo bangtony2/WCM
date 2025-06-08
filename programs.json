@@ -85,6 +85,8 @@
     },
     {
       "name": "Visual Studio Code",
+      "open": true,
+      "openpath": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
       "chocoCommand": "vscode",
       "description": "Визуал студио код",
       "iconPath": "vscode.png",
@@ -94,6 +96,8 @@
     },
     {
       "name": "Microsoft PowerToys",
+      "open": true,
+      "openpath": "C:\\Program Files\\PowerToys\\PowerToys.exe",
       "chocoCommand": "powertoys",
       "description": "Доп-инструменты виндовс",
       "iconPath": "powertoys.png",
@@ -103,6 +107,8 @@
     },
     {
       "name": "Equalizer APO",
+      "open": true,
+      "openpath": "C:\\Program Files\\EqualizerAPO\\Editor.exe",
       "description": "Еквалайзер",
       "iconPath": "apo.png",
       "googleDriveUrl": "https://drive.usercontent.google.com/download?id=1wvqzzA7B6a3KuFQh3aEP8scIOe4oNiX6&export=download&authuser=0&confirm=t&uuid=90468a82-161a-4c66-8520-0c7fac3fc835&at=ALoNOgnrsvjFnRF6pFD3GZJEN58_%3A1749396745483",
