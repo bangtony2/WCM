@@ -95,7 +95,7 @@
       ]
     },
     {
-      "name": "SpotX2",
+      "name": "SpotX22",
       "open": true,
       "openpath": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Spotify\\Spotify.exe",
       "command": "powershell.exe -Command \"[Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12; $p='-new_theme'; try { (iwr -useb 'https://raw.githubusercontent.com/SpotX-Official/spotx-official.github.io/main/run.ps1') } catch { $p+= ' -m'; (iwr -useb 'https://spotx-official.github.io/run.ps1') } | iex\"",
