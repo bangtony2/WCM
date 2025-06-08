@@ -45,7 +45,7 @@
       "description": "Визуал студио код",
       "iconPath": "vscode.png",
       "installPaths": [
-        "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+        "C:\\Program Files\\Microsoft VS Code\\Code.exe"
       ]
     },
     {
