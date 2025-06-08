@@ -23,6 +23,8 @@
     {
       "name": "Steam",
       "chocoCommand": "steam",
+      "open": true,
+      "openpath": "C:\\Program Files (x86)\\Steam\\steam.exe",  
       "description": "Стим",
       "iconPath": "steam.png",
       "installPaths": [
