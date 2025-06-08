@@ -16,6 +16,8 @@
       "name": "Google Chrome",
       "chocoCommand": "googlechrome",
       "description": "Веб-браузер",
+      "open": true,
+      "openpath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
       "iconPath": "googlechrome.png",
       "installPaths": [
         "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
@@ -72,6 +74,8 @@
     },
     {
       "name": "Lighshot",
+      "open": true,
+      "openpath": "C:\\Program Files (x86)\\Skillbrains\\lightshot\\Lightshot.exe",
       "chocoCommand": "lightshot.install",
       "description": "Скриншотер",
       "iconPath": "lightshot.png",
