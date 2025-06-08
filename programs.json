@@ -23,7 +23,7 @@
     {
       "name": "Nvidia App",
       "description": "Нвидиа прога",
-      "iconPath": "googlechrome.png",
+      "iconPath": "nvidia.png",
       "googleDriveUrl": "https://us.download.nvidia.com/nvapp/client/11.0.4.148/NVIDIA_app_v11.0.4.148.exe",
       "installerFilename": "NVIDIA_app_v11.0.4.148.exe",
       "installPaths": [
@@ -58,6 +58,15 @@
       "iconPath": "vscode.png",
       "installPaths": [
         "C:\\Program Files\\Microsoft VS Code\\Code.exe"
+      ]
+    },
+    {
+      "name": "Microsoft PowerToys",
+      "chocoCommand": "powertoys",
+      "description": "Доп-инструменты виндовс",
+      "iconPath": "powertoys.png",
+      "installPaths": [
+        "C:\\Program Files\\WindowsApps\\Microsoft.PowerToys\\PowerToys.exe"
       ]
     },
     {
