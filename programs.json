@@ -21,7 +21,7 @@
     },
     {
       "name": "Discord",
-      "chocoCommand": "discord",
+      "chocoCommand": "discord.install",
       "description": "Дискорд",
       "iconPath": "discord.png",
       "installPaths": [
