@@ -2,9 +2,10 @@
   "programs": [
     {
       "name": "Thorium",
-      "chocoCommand": "thorium",
       "description": "Основной браузер",
       "iconPath": "thorium.png",
+      "googleDriveUrl": "https://github.com/Alex313031/Thorium-Win-AVX2/releases/download/M117.0.5938.157/thorium_AVX2_mini_installer.exe",
+      "installerFilename": "thorium_AVX2_mini_installer.exe",
       "installPaths": [
         "C:\\Users\\%USERNAME%\\AppData\\Local\\Thorium\\Application\\thorium.exe"
       ]
