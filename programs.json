@@ -98,7 +98,7 @@
       "name": "Utorrent",
       "open": true,
       "openpath": "C:\\Program Filess\\Microsoft VS Code\\Code.exe",
-      "googleDriveUrl": "https://www.utorrent.com/downloads/complete/track/stable/os/win/",
+      "googleDriveUrl": "https://download-hr.utorrent.com/track/stable/endpoint/utorrent/os/riserollout?filename=utorrent_installer.exe",
       "installerFilename": "utorrent_installer.exe",
       "description": "Торрент",
       "iconPath": "utorrent.png",
