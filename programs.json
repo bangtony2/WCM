@@ -1,5 +1,14 @@
 {
-  "programs": [
+  "programs": [    {
+      "name": "Google Chrome",
+      "chocoCommand": "googlechrome",
+      "description": "Веб-браузер",
+      "iconPath": "googlechrome.png",
+      "installPaths": [
+        "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+      ]
+    },
     {
       "name": "Thorium",
       "description": "Основной браузер",
@@ -18,6 +27,15 @@
       "installPaths": [
         "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
         "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+      ]
+    },
+    {
+      "name": "Steam",
+      "chocoCommand": "steam",
+      "description": "Стим",
+      "iconPath": "steam.png",
+      "installPaths": [
+        "C:\\Program Files (x86)\\Steam"
       ]
     },
     {
