@@ -52,9 +52,10 @@
     },
     {
       "name": "Equalizer APO",
-      "chocoCommand": "equalizerapo --version=1.2",
       "description": "Еквалайзер",
       "iconPath": "apo.png",
+      "googleDriveUrl": "https://drive.usercontent.google.com/download?id=1wvqzzA7B6a3KuFQh3aEP8scIOe4oNiX6&export=download&authuser=0&confirm=t&uuid=90468a82-161a-4c66-8520-0c7fac3fc835&at=ALoNOgnrsvjFnRF6pFD3GZJEN58_%3A1749396745483",
+      "installerFilename": "EqualizerAPO64-1.2.1.exe",
       "installPaths": [
         "C:\\Program Files\\EqualizerAPO\\Editor.exe"
       ]
