@@ -1,14 +1,5 @@
 {
-  "programs": [    {
-      "name": "Google Chrome",
-      "chocoCommand": "googlechrome",
-      "description": "Веб-браузер",
-      "iconPath": "googlechrome.png",
-      "installPaths": [
-        "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
-        "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
-      ]
-    },
+  "programs": [
     {
       "name": "Thorium",
       "description": "Основной браузер",
