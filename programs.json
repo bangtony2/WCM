@@ -33,6 +33,8 @@
     },
     {
       "name": "Nvidia App",
+      "open": true,
+      "openpath": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA App.exe", 
       "delete": false,
       "description": "Нвидиа прога",
       "iconPath": "nvidia.png",
