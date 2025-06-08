@@ -98,7 +98,8 @@
       "name": "Utorrent",
       "open": true,
       "openpath": "C:\\Program Filess\\Microsoft VS Code\\Code.exe",
-      "chocoCommand": "utorrent",
+      "googleDriveUrl": "https://www.utorrent.com/downloads/complete/track/stable/os/win/",
+      "installerFilename": "utorrent_installer.exe",
       "description": "Торрент",
       "iconPath": "utorrent.png",
       "installPaths": [
