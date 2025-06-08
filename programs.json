@@ -79,6 +79,15 @@
       ]
     },
     {
+      "name": "Windhawk",
+      "chocoCommand": "windhawk",
+      "description": "Визуал для вин",
+      "iconPath": "windhawk.png",
+      "installPaths": [
+        "C:\\Program Filess\\Microsoft VS Code\\Code.exe"
+      ]
+    },
+    {
       "name": "Microsoft PowerToys",
       "chocoCommand": "powertoys",
       "description": "Доп-инструменты виндовс",
