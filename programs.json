@@ -52,7 +52,7 @@
     },
     {
       "name": "Equalizer APO",
-      "chocoCommand": "equalizerapo",
+      "chocoCommand": "equalizerapo --version=1.2",
       "description": "Еквалайзер",
       "iconPath": "apo.png",
       "installPaths": [
