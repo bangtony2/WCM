@@ -157,13 +157,13 @@
     {
       "name": "Voicemeeter Banana",
       "open": true,
-      "openpath": "C:\\Program Filess (x86)\\Radmin VPN\\RvRvpnGui.exe",
+      "openpath": "C:\\Program Files (x86)\\VB\\Voicemeeter\\voicemeeterpro_x64.exe",
       "googleDriveUrl": "https://drive.usercontent.google.com/download?id=1sEv7g8osJgXKgt9ZlZxejJ85Xlq6VVmj&export=download&authuser=0&confirm=t&uuid=02bdbdde-551c-48f3-89f6-734f107ea4e1&at=ALoNOgmQKPfAxLvUrb1C5iP7ALId%3A1749418163971",
       "installerFilename": "voicemeeterprosetup.exe",
       "description": "Баначик",
       "iconPath": "banana.png",
       "installPaths": [
-        "C:\\Program Filess (x86)\\Radmin VPN\\RvRvpnGui.exe"
+        "C:\\Program Files (x86)\\VB\\Voicemeeter\\voicemeeterpro_x64.exe"
       ]
     },
     {
