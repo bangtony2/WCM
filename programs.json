@@ -97,13 +97,14 @@
     {
       "name": "AyuGram",
       "open": true,
-      "openpath": "C:\\Program Files (x86)\\Radmin VPN\\RvRvpnGui.exe",
+      "openpath": "C:\\Users\\bangtony\\Documents\\app-config\\AyuGram.exe",
+      "folderdelete": false,
       "googleDriveUrl": "https://github.com/AyuGram/AyuGramDesktop/releases/download/v5.14.3/AyuGram.exe",
       "installerFilename": "AyuGram.exe",
       "description": "Лучший мод для тг",
       "iconPath": "ayugram.png",
       "installPaths": [
-        "C:\\Program Filess (x86)\\Radmin VPNs\\RvRvpnGui.exe"
+        "C:\\Users\\bangtony\\Documents\\app-config\\AyuGram.exe"
       ]
     },
     {
