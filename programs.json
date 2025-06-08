@@ -43,7 +43,7 @@
       "name": "ReaPlugs",
       "description": "VST плагины от Reaper",
       "iconPath": "googlechrome.png",
-      "googleDriveUrl": "https://drive.usercontent.google.com/download?id=1Q3bSRFcqmJP5TCUP8-PBvh56BtHqZp-3&export=download&authuser=0&confirm=t&uuid=2d3a7b7f-3174-465b-9f45-791adc9f0e17&at=ALoNOgmz-YNxd_flQVoEb_71t93m%3A1749380421413",
+      "googleDriveUrl": "https://drive.usercontent.google.com/download?id=1Q3bSRFcqmJP5TCUP8-PBvh56BtHqZp-3&export=download&confirm=t&uuid=5da22065-ef32-4aad-a1e3-82d3be78d175",
       "installerFilename": "reaplugs236_x64-install.exe",
       "installPaths": [
         "C:\\Program Files\\VSTPlugins\\reaplugs\\reaplugs.dll",
