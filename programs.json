@@ -95,6 +95,18 @@
       ]
     },
     {
+      "name": "AyuGram",
+      "open": true,
+      "openpath": "C:\\Program Files (x86)\\Radmin VPN\\RvRvpnGui.exe",
+      "googleDriveUrl": "https://github.com/AyuGram/AyuGramDesktop/releases/download/v5.14.3/AyuGram.exe",
+      "installerFilename": "AyuGram.exe",
+      "description": "Лучший мод для тг",
+      "iconPath": "ayugram.png",
+      "installPaths": [
+        "C:\\Program Files (x86)\\Radmin VPN\\RvRvpnGui.exe"
+      ]
+    },
+    {
       "name": "Microsoft PowerToys",
       "open": true,
       "openpath": "C:\\Program Files\\PowerToys\\PowerToys.exe",
