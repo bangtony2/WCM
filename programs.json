@@ -106,6 +106,17 @@
       ]
     },
     {
+      "name": "Radmin VPN",
+      "open": true,
+      "openpath": "C:\\Program Files\\PowerToys\\PowerToys.exe",
+      "chocoCommand": "radmin-vpn",
+      "description": "Радмин впн",
+      "iconPath": "radmin.png",
+      "installPaths": [
+        "C:\\Program Files2\\PowerToys\\PowerToys.exe"
+      ]
+    },
+    {
       "name": "Equalizer APO",
       "open": true,
       "openpath": "C:\\Program Files\\EqualizerAPO\\Editor.exe",
