@@ -108,13 +108,13 @@
     {
       "name": "Radmin VPN",
       "open": true,
-      "openpath": "C:\\Program Files\\PowerToys\\PowerToys.exe",
+      "openpath": "C:\\Program Files (x86)\\Radmin VPN\\RvRvpnGui.exe",
       "googleDriveUrl": "https://download.radmin-vpn.com/download/files/Radmin_VPN_1.4.4642.1.exe",
       "installerFilename": "Radmin_VPN_1.4.4642.1.exe",
       "description": "Радмин впн",
       "iconPath": "radmin.png",
       "installPaths": [
-        "C:\\Program Files2\\PowerToys\\PowerToys.exe"
+        "C:\\Program Files (x86)\\Radmin VPN\\RvRvpnGui.exe"
       ]
     },
     {
