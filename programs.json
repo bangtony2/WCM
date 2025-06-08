@@ -109,13 +109,13 @@
     {
       "name": "Utorrent",
       "open": true,
-      "openpath": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\utorrent",
+      "openpath": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\utorrent\\utorrent.exe",
       "googleDriveUrl": "https://drive.usercontent.google.com/download?id=1vPnhfUYVZlikZGKKjKdXIoB23WAGr020&export=download&authuser=0&confirm=t&uuid=4eafbb17-d064-43ea-a625-da247d51a666&at=ALoNOgmE6iZfQrVgSH683_igVSSF%3A1749412266437",
       "installerFilename": "utorrent.bat",
       "description": "Торрент",
       "iconPath": "utorrent.png",
       "installPaths": [
-        "C:\\Users\\%USERNAME%\\AppData\\Roaming\\utorrent"
+        "C:\\Users\\%USERNAME%\\AppData\\Roaming\\utorrent\\utorrent.exe"
       ]
     },
     {
