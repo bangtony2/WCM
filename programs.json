@@ -40,6 +40,25 @@
       ]
     },
     {
+      "name": "Discord",
+      "chocoCommand": "discord",
+      "description": "Дискорд",
+      "iconPath": "googlechrome.png",
+      "installPaths": [
+        "C:\\Users\\%USERNAME%\\AppData\\Local\\Discord"
+      ]
+    },
+    {
+      "name": "Vencord",
+      "description": "Мод для дискорда",
+      "iconPath": "googlechrome.png",
+      "googleDriveUrl": "https://drive.usercontent.google.com/download?id=1G0kCxMb5vf6iZ5jBEGff8UU88pVgV-Pv&export=download&confirm=t&uuid=583b9c86-f55f-46c0-b9ea-63efc1e5c89a",
+      "installerFilename": "VencordInstaller.exe",
+      "installPaths": [
+        "C:\\Users\\%USERNAME%\\Downloads\\VencordInstaller.exe"
+      ]
+    },
+    {
       "name": "Visual Studio Code",
       "chocoCommand": "vscode",
       "description": "Визуал студио код",
