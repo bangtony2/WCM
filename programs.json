@@ -4,30 +4,10 @@
       "name": "Thorium",
       "chocoCommand": "thorium",
       "description": "Основной браузер",
-      "iconPath": "googlechrome.png",
+      "iconPath": "thorium.png",
       "installPaths": [
         "C:\\Users\\%USERNAME%\\AppData\\Local\\Thorium\\Application\\thorium.exe"
       ]
-    },
-    {
-      "name": "7-Zip",
-      "chocoCommand": "7zip.install",
-      "description": "Архиватор",
-      "iconPath": "googlechrome.png",
-      "installPaths": [
-        "C:\\Program Files\\7-Zip\\7z.exe",
-        "C:\\Program Files (x86)\\7-Zip\\7z.exe"
-      ]
-    },
-    {
-      "name": "Notepad++",
-      "chocoCommand": "notepadplusplus.install",
-      "description": "Текстовый редактор",
-      "iconPath": "googlechrome.png",
-      "installPaths": [
-        "C:\\Program Files\\Notepad++\\notepad++.exe"
-      ],
-      "processNames": ["notepad++.exe"]
     },
     {
       "name": "Google Chrome",
@@ -43,7 +23,7 @@
       "name": "Discord",
       "chocoCommand": "discord",
       "description": "Дискорд",
-      "iconPath": "googlechrome.png",
+      "iconPath": "discord.png",
       "installPaths": [
         "C:\\Users\\%USERNAME%\\AppData\\Local\\Discord"
       ]
@@ -52,7 +32,7 @@
       "name": "Vencord",
       "folderdelete": false,
       "description": "Мод для дискорда",
-      "iconPath": "googlechrome.png",
+      "iconPath": "vencord.png",
       "googleDriveUrl": "https://drive.usercontent.google.com/download?id=1G0kCxMb5vf6iZ5jBEGff8UU88pVgV-Pv&export=download&confirm=t&uuid=583b9c86-f55f-46c0-b9ea-63efc1e5c89a",
       "installerFilename": "VencordInstaller.exe",
       "installPaths": [
@@ -63,7 +43,7 @@
       "name": "Visual Studio Code",
       "chocoCommand": "vscode",
       "description": "Визуал студио код",
-      "iconPath": "googlechrome.png",
+      "iconPath": "vscode.png",
       "installPaths": [
         "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
       ]
@@ -72,7 +52,7 @@
       "name": "Equalizer APO",
       "chocoCommand": "equalizerapo",
       "description": "Еквалайзер",
-      "iconPath": "googlechrome.png",
+      "iconPath": "apo.png",
       "installPaths": [
         "C:\\Program Files\\EqualizerAPO\\Editor.exe"
       ]
@@ -80,7 +60,7 @@
     {
       "name": "ReaPlugs",
       "description": "VST плагины от Reaper",
-      "iconPath": "googlechrome.png",
+      "iconPath": "reaplugs.png",
       "googleDriveUrl": "https://drive.usercontent.google.com/download?id=1Q3bSRFcqmJP5TCUP8-PBvh56BtHqZp-3&export=download&confirm=t&uuid=5da22065-ef32-4aad-a1e3-82d3be78d175",
       "installerFilename": "reaplugs236_x64-install.exe",
       "installPaths": [
