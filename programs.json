@@ -97,12 +97,12 @@
     {
       "name": "Utorrent",
       "open": true,
-      "openpath": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+      "openpath": "C:\\Program Filess\\Microsoft VS Code\\Code.exe",
       "chocoCommand": "utorrent",
       "description": "Торрент",
       "iconPath": "utorrent.png",
       "installPaths": [
-        "C:\\Program Files\\Microsoft VS Code\\Code.exe"
+        "C:\\Program Filess\\Microsoft VS Code\\Code.exe"
       ]
     },
     {
