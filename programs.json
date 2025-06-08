@@ -155,6 +155,17 @@
       ]
     },
     {
+      "name": "Voicemeeter Banana",
+      "open": true,
+      "openpath": "C:\\Program Filess\\PowerToys\\PowerToys.exe",
+      "chocoCommand": "voicemeeter-banana.install",
+      "description": "Бананчик",
+      "iconPath": "banana.png",
+      "installPaths": [
+        "C:\\Program Filess\\PowerToys\\PowerToys.exe"
+      ]
+    },
+    {
       "name": "Equalizer APO",
       "open": true,
       "openpath": "C:\\Program Files\\EqualizerAPO\\Editor.exe",
