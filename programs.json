@@ -21,6 +21,15 @@
       ]
     },
     {
+      "name": "Steam",
+      "chocoCommand": "steam",
+      "description": "Стим",
+      "iconPath": "steam.png",
+      "installPaths": [
+        "C:\\Program Files (x86)\\Steam\\steam.exe"
+      ]
+    },
+    {
       "name": "Nvidia App",
       "delete": false,
       "description": "Нвидиа прога",
@@ -50,6 +59,15 @@
       "installerFilename": "VencordInstaller.exe",
       "installPaths": [
         "C:\\Users\\%USERNAME%\\Documents\\app-config\\VencordInstaller.exe"
+      ]
+    },
+    {
+      "name": "Lighshot",
+      "chocoCommand": "lightshot.install",
+      "description": "Скриншотер",
+      "iconPath": "lightshot.png",
+      "installPaths": [
+        "C:\\Program Files (x86)\\Skillbrains\\lightshot\\Lightshot.exe"
       ]
     },
     {
