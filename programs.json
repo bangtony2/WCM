@@ -109,7 +109,8 @@
       "name": "Radmin VPN",
       "open": true,
       "openpath": "C:\\Program Files\\PowerToys\\PowerToys.exe",
-      "chocoCommand": "radmin-vpn",
+      "googleDriveUrl": "https://download.radmin-vpn.com/download/files/Radmin_VPN_1.4.4642.1.exe",
+      "installerFilename": "Radmin_VPN_1.4.4642.1.exe",
       "description": "Радмин впн",
       "iconPath": "radmin.png",
       "installPaths": [
