@@ -67,7 +67,7 @@
       "description": "Доп-инструменты виндовс",
       "iconPath": "powertoys.png",
       "installPaths": [
-        "C:\\Program Files\\WindowsApps\\Microsoft.PowerToys\\PowerToys.exe"
+        "C:\\Program Files\\PowerToys\\PowerToys.exe"
       ]
     },
     {
