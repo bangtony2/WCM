@@ -98,8 +98,8 @@
       "name": "SpotX",
       "open": true,
       "openpath": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Spotify\\Spotify.exe",
-      "googleDriveUrl": "https://github.com/SpotX-Official/SpotX/releases/download/1.9/Install_New_theme.bat",
-      "installerFilename": "Install_New_theme.bat",
+      "googleDriveUrl": "https://drive.usercontent.google.com/download?id=104ioVDaDxIUnpTN-7Ibne6c1f5ABfLcD&export=download&authuser=0&confirm=t&uuid=4a1a45dc-5e84-4d9b-8dc6-7a65aea454c7&at=ALoNOgkDlRnEVyogYn0NL-JcDbi_%3A1749413222176",
+      "installerFilename": "run_installer.bat",
       "description": "Мод на спотифай",
       "iconPath": "spotx.png",
       "installPaths": [
