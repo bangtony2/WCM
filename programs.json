@@ -44,8 +44,7 @@
     },
     {
       "name": "Discord",
-      "open": true,
-      "openpath": "C:\\Users\\bangtony\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Discord Inc\\Discord.lnk",            
+      "openpath": "",            
       "description": "Дискорд",
       "iconPath": "discord.png",
       "googleDriveUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9194/DiscordSetup.exe",
