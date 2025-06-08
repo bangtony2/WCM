@@ -55,7 +55,7 @@
       "googleDriveUrl": "https://drive.usercontent.google.com/download?id=1G0kCxMb5vf6iZ5jBEGff8UU88pVgV-Pv&export=download&confirm=t&uuid=583b9c86-f55f-46c0-b9ea-63efc1e5c89a",
       "installerFilename": "VencordInstaller.exe",
       "installPaths": [
-        "C:\\Users\\%USERNAME%\\Downloads\\VencordInstaller.exe"
+        "C:\\Users\\%USERNAME%\\Documents\\app-config\\VencordInstaller.exe"
       ]
     },
     {
