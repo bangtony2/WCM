@@ -84,7 +84,16 @@
       "description": "Визуал для вин",
       "iconPath": "windhawk.png",
       "installPaths": [
-        "C:\\Program Filess\\Microsoft VS Code\\Code.exe"
+        "C:\\Program Files\\Windhawk\\windhawk.exe"
+      ]
+    },
+    {
+      "name": "Lightshot",
+      "chocoCommand": "lightshot.install",
+      "description": "Скриншотер",
+      "iconPath": "lightshot.png",
+      "installPaths": [
+        "C:\\Program Files (x86)\\Skillbrains\\lightshot\\Lightshot.exe"
       ]
     },
     {
