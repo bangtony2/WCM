@@ -47,7 +47,6 @@
       "installerFilename": "reaplugs236_x64-install.exe",
       "installPaths": [
         "C:\\Program Files\\VSTPlugins\\ReaPlugs",
-        "C:\\Program Files (x86)\\VSTPlugins\\reaplugs\\reaplugs.dll",
         "C:\\Program Files\\Common Files\\VST2\\reaplugs.dll",
         "C:\\Program Files (x86)\\Common Files\\VST2\\reaplugs.dll"
       ]
