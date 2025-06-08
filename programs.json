@@ -97,26 +97,26 @@
     {
       "name": "SpotX",
       "open": true,
-      "openpath": "C:\\Users\\bangtony\\AppData\\Roaming\\Spotify\\Spotify.exe",
+      "openpath": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Spotify\\Spotify.exe",
       "googleDriveUrl": "https://github.com/SpotX-Official/SpotX/releases/download/1.9/Install_New_theme.bat",
       "installerFilename": "Install_New_theme.bat",
       "description": "Мод на спотифай",
       "iconPath": "spotx.png",
       "installPaths": [
-        "C:\\Users\\bangtony\\AppData\\Roaming\\Spotify\\Spotify.exe"
+        "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Spotify\\Spotify.exe"
       ]
     },
     {
       "name": "AyuGram",
       "open": true,
-      "openpath": "C:\\Users\\bangtony\\Documents\\app-config\\AyuGram.exe",
+      "openpath": "C:\\Users\\%USERNAME%\\Documents\\app-config\\AyuGram.exe",
       "folderdelete": false,
       "googleDriveUrl": "https://github.com/AyuGram/AyuGramDesktop/releases/download/v5.14.3/AyuGram.exe",
       "installerFilename": "AyuGram.exe",
       "description": "Лучший мод для тг",
       "iconPath": "ayugram.png",
       "installPaths": [
-        "C:\\Users\\bangtony\\Documents\\app-config\\AyuGram.exe"
+        "C:\\Users\\%USERNAME%\\Documents\\app-config\\AyuGram.exe"
       ]
     },
     {
