@@ -21,16 +21,8 @@
       ]
     },
     {
-      "name": "Steam",
-      "chocoCommand": "steam",
-      "description": "Стим",
-      "iconPath": "steam.png",
-      "installPaths": [
-        "C:\\Program Files (x86)\\Steam"
-      ]
-    },
-    {
       "name": "Nvidia App",
+      "delete": false,
       "description": "Нвидиа прога",
       "iconPath": "nvidia.png",
       "googleDriveUrl": "https://us.download.nvidia.com/nvapp/client/11.0.4.148/NVIDIA_app_v11.0.4.148.exe",
@@ -70,30 +62,12 @@
       ]
     },
     {
-      "name": "Windhawk",
-      "chocoCommand": "windhawk",
-      "description": "Визуал для вин",
-      "iconPath": "windhawk.png",
-      "installPaths": [
-        "C:\\Program Files\\Windhawk\\windhawk.exe"
-      ]
-    },
-    {
-      "name": "Lightshot",
-      "chocoCommand": "lightshot.install",
-      "description": "Скриншотер",
-      "iconPath": "lightshot.png",
-      "installPaths": [
-        "C:\\Program Files (x86)\\Skillbrains\\lightshot\\Lightshot.exe"
-      ]
-    },
-    {
       "name": "Microsoft PowerToys",
       "chocoCommand": "powertoys",
       "description": "Доп-инструменты виндовс",
       "iconPath": "powertoys.png",
       "installPaths": [
-        "C:\\Program Files\\PowerToys\\PowerToys.exe"
+        "C:\\Program Files\\WindowsApps\\Microsoft.PowerToys\\PowerToys.exe"
       ]
     },
     {
