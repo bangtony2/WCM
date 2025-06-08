@@ -95,15 +95,15 @@
       ]
     },
     {
-      "name": "Utorrent",
+      "name": "SpotX",
       "open": true,
-      "openpath": "C:\\Program Filess\\Microsoft VS Code\\Code.exe",
-      "googleDriveUrl": "https://drive.usercontent.google.com/download?id=11J24X9skOcVE4SsY9FrWdNDO6DQL2I0z&export=download&authuser=0&confirm=t&uuid=ba017603-a96b-4d92-b61a-36969682cf2f&at=ALoNOgm0slOeHjVpKeUXC6ITRZHd%3A1749410923082",
-      "installerFilename": "utorrent_installer.exe",
-      "description": "Торрент",
-      "iconPath": "utorrent.png",
+      "openpath": "C:\\Users\\bangtony\\AppData\\Roaming\\Spotify\\Spotify.exe",
+      "googleDriveUrl": "https://github.com/SpotX-Official/SpotX/releases/download/1.9/Install_New_theme.bat",
+      "installerFilename": "Install_New_theme.bat",
+      "description": "Мод на спотифай",
+      "iconPath": "spotx.png",
       "installPaths": [
-        "C:\\Program Filess\\Microsoft VS Code\\Code.exe"
+        "C:\\Users\\bangtony\\AppData\\Roaming\\Spotify\\Spotify.exe"
       ]
     },
     {
