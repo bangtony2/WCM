@@ -51,6 +51,7 @@
     },
     {
       "name": "Discord",
+      "proccesname": "Discord.exe",
       "openpath": "",            
       "description": "Дискорд",
       "iconPath": "discord.png",
@@ -62,6 +63,7 @@
     },
     {
       "name": "Vencord",
+      "proccesname": "VencordInstaller.exe",
       "open": true,
       "openpath": "C:\\Users\\%USERNAME%\\Documents\\app-config\\VencordInstaller.exe", 
       "folderdelete": false,
@@ -75,6 +77,7 @@
     },
     {
       "name": "Lighshot",
+      "proccesname": "Lighshot.exe",
       "open": true,
       "openpath": "C:\\Program Files (x86)\\Skillbrains\\lightshot\\Lightshot.exe",
       "chocoCommand": "lightshot.install",
@@ -86,6 +89,7 @@
     },
     {
       "name": "Visual Studio Code",
+      "proccesname": "Code.exe",
       "open": true,
       "openpath": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
       "chocoCommand": "vscode",
@@ -110,7 +114,8 @@
       ]
     },
     {
-      "name": "Utorrent2",
+      "name": "Utorrent",
+      "proccesname": "uTorrent.exe",
       "programsandfeature": "µTorrent",
       "open": true,
       "openpath": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\utorrent\\utorrent.exe",
@@ -174,6 +179,7 @@
     },
     {
       "name": "Equalizer APO",
+      "proccesname": "Editor.exe",
       "open": true,
       "openpath": "C:\\Program Files\\EqualizerAPO\\Editor.exe",
       "description": "Еквалайзер",
