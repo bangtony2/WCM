@@ -189,12 +189,12 @@
       "programsandfeature": "AutoHotkey",
       "proccesname": "autohotkey.exe",
       "open": true,
-      "openpath": "C:\\Program Filess\\Windhawk\\windhawk.exe",
+      "openpath": "C:\\Program Files\\AutoHotkey\\AutoHotkeyU64.exe",
       "chocoCommand": "autohotkey",
       "description": "АХК",
       "iconPath": "ahk.png",
       "installPaths": [
-        "C:\\Program Filess\\Windhawk\\windhawk.exe"
+        "C:\\Program Files\\AutoHotkey\\AutoHotkeyU64.exe"
       ]
     },
     {
