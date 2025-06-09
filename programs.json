@@ -108,7 +108,7 @@
       ]
     },
     {
-      "name": "Utorrent",
+      "name": "Utorrent2",
       "programsandfeature": "µTorrent",
       "open": true,
       "openpath": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\utorrent\\utorrent.exe",
