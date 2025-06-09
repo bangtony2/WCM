@@ -7,7 +7,7 @@
       "open": true,
       "openpath": "C:\\Users\\%USERNAME%\\AppData\\Local\\Thorium\\Application\\thorium.exe",
       "iconPath": "thorium.png",
-      "googleDriveUrl": "https://github.com/Alex313031/Thorium-Win-AVX2/releases/download/M119.0.6045.214/thorium_AVX2_mini_installer.exe",
+      "googleDriveUrl": "https://github.com/Alex313031/Thorium-Win/releases/download/M130.0.6723.174/thorium_AVX2_mini_installer.exe",
       "installerFilename": "thorium_AVX2_mini_installer.exe",
       "installPaths": [
         "C:\\Users\\%USERNAME%\\AppData\\Local\\Thorium\\Application\\thorium.exe"
