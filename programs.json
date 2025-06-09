@@ -172,6 +172,18 @@
       ]
     },
     {
+      "name": "Windhawk",
+      "proccesname": "Windhawk.exe",
+      "open": true,
+      "openpath": "C:\\Program Files\\Windhawk\\windhawk.exe",
+      "chocoCommand": "windhawk",
+      "description": "Косметика виндовс",
+      "iconPath": "windhawk.png",
+      "installPaths": [
+        "C:\\Program Files\\Windhawk\\windhawk.exe"
+      ]
+    },
+    {
       "name": "Voicemeeter Banana",
       "open": true,
       "openpath": "C:\\Program Files (x86)\\VB\\Voicemeeter\\voicemeeterpro_x64.exe",
