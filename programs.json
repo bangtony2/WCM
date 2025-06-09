@@ -54,8 +54,9 @@
     },
     {
       "name": "Discord",
+      "open": true,
       "proccesname": "Discord.exe",
-      "openpath": "",            
+      "openpathPattern": "C:\\Users\\%USERNAME%\\AppData\\Local\\Discord\\app-*\\Discord.exe",        
       "description": "Дискорд",
       "iconPath": "discord.png",
       "googleDriveUrl": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9194/DiscordSetup.exe",
