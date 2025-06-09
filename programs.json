@@ -184,6 +184,18 @@
       ]
     },
     {
+      "name": "AutoHotkey",
+      "proccesname": "autohotkey.exe",
+      "open": true,
+      "openpath": "C:\\Program Filess\\Windhawk\\windhawk.exe",
+      "chocoCommand": "autohotkey",
+      "description": "АХК",
+      "iconPath": "ahk.png",
+      "installPaths": [
+        "C:\\Program Filess\\Windhawk\\windhawk.exe"
+      ]
+    },
+    {
       "name": "Voicemeeter Banana",
       "open": true,
       "openpath": "C:\\Program Files (x86)\\VB\\Voicemeeter\\voicemeeterpro_x64.exe",
