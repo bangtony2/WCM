@@ -27,6 +27,7 @@
     {
       "name": "Steam",
       "chocoCommand": "steam",
+      "programsandfeature": "Steam",
       "open": true,
       "openpath": "C:\\Program Files (x86)\\Steam\\steam.exe",  
       "description": "Стим",
@@ -144,6 +145,7 @@
     },
     {
       "name": "Radmin VPN",
+      "programsandfeature": "Radmin VPN 2.0.6",
       "open": true,
       "openpath": "C:\\Program Files (x86)\\Radmin VPN\\RvRvpnGui.exe",
       "googleDriveUrl": "https://download.radmin-vpn.com/download/files/Radmin_VPN_1.4.4642.1.exe",
