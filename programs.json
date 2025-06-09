@@ -123,6 +123,7 @@
     },
     {
       "name": "AyuGram",
+      "proccesname": "AyuGram.exe",
       "open": true,
       "openpath": "C:\\Users\\%USERNAME%\\Documents\\app-config\\AyuGram.exe",
       "folderdelete": false,
