@@ -25,7 +25,7 @@
       ]
     },
     {
-      "name": "Steam",
+      "name": "Steam2",
       "chocoCommand": "steam",
       "programsandfeature": "Steam",
       "open": true,
