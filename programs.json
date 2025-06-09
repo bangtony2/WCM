@@ -2,6 +2,7 @@
   "programs": [
     {
       "name": "Thorium",
+      "proccesname": "thorium.exe",
       "description": "Основной браузер",
       "open": true,
       "openpath": "C:\\Users\\%USERNAME%\\AppData\\Local\\Thorium\\Application\\thorium.exe",
@@ -14,6 +15,7 @@
     },
     {
       "name": "Google Chrome",
+      "proccesname": "chrome.exe",
       "chocoCommand": "googlechrome",
       "description": "Веб-браузер",
       "open": true,
@@ -26,6 +28,7 @@
     },
     {
       "name": "Steam",
+      "proccesname": "steam.exe",
       "chocoCommand": "steam",
       "programsandfeature": "Steam",
       "open": true,
@@ -143,6 +146,8 @@
     },
     {
       "name": "Microsoft PowerToys",
+      "proccesname": "PowerToys.exe",
+      "programsandfeature": "PowerToys (Preview) x64",
       "open": true,
       "openpath": "C:\\Program Files\\PowerToys\\PowerToys.exe",
       "chocoCommand": "powertoys",
