@@ -25,6 +25,18 @@
       "requiresRestart": false
     },
     {
+      "id": "toggle_bluetooth",
+      "name": "Управление Bluetooth",
+      "description": "Включение или отключение Bluetooth в системе",
+      "category": "Система",
+      "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-bluetooth.bat",
+      "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-bluetooth.bat",
+      "checkCommand": "powershell -command \"Get-Service bthserv | Select-Object -ExpandProperty Status\"",
+      "enabledValue": "Running",
+      "disabledValue": "Stopped",
+      "requiresRestart": false
+    },
+    {
       "id": "toggle_printer",
       "name": "Управление печатью",
       "description": "Включение или отключение службы печати",
