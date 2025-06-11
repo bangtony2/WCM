@@ -26,7 +26,7 @@
     },
     {
       "id": "toggle_extensions",
-      "name": "Управление Расширением",
+      "name": "Управление расширением",
       "description": "Включение или отключение показ расширений файлов",
       "category": "Система",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\extensions-enable.bat",
@@ -35,6 +35,54 @@
       "enabledValue": "0",
       "disabledValue": "1",
       "requiresRestart": false
+    },
+        {
+      "id": "toggle_superfetch",
+      "name": "Управление SysMain (Superfetch)",
+      "description": "Включение или отключение SysMain",
+      "category": "Система",
+      "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-superfetch.bat",
+      "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-superfetch-xos-default.bat",
+      "checkCommand": "powershell -command \"(Get-Service -Name 'SysMain').StartType\"",
+      "enabledValue": "Automatic",
+      "disabledValue": "Disabled",
+      "requiresRestart": true
+    },
+    {
+      "id": "toggle_themes",
+      "name": "Управление темами",
+      "description": "Включение или отключение тем",
+      "category": "Персонализация",
+      "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-themes.bat",
+      "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-themes-xos-default.bat",
+      "checkCommand": "powershell -command \"(Get-Service -Name 'Themes').StartType\"",
+      "enabledValue": "Automatic",
+      "disabledValue": "Disabled",
+      "requiresRestart": false
+    },
+    {
+      "id": "toggle_diagnostics",
+      "name": "Управление диагностиками",
+      "description": "Включение или отключение встроенных диагностических служб и задач Windows",
+      "category": "Система",
+      "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-diagnostics.bat",
+      "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-diagnostics-xos-default.bat",
+      "checkCommand": "powershell -command \"(Get-ItemProperty -Path 'HKLM:\\System\\ControlSet001\\Services\\diagnosticshub.standardcollector.service' -Name Start).Start\"",
+      "enabledValue": "3",
+      "disabledValue": "4",
+      "requiresRestart": true
+    },
+    {
+      "id": "toggle_wifi",
+      "name": "Управление Wi-Fi",
+      "description": "Включение или отключение Wi-Fi",
+      "category": "Сеть",
+      "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-wifi.bat",
+      "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-wifi-xos-default.bat",
+      "checkCommand": "powershell -command \"(Get-ItemProperty -Path 'HKLM:\\System\\CurrentControlSet\\Services\\WlanSvc' -Name Start).Start\"",
+      "enabledValue": "2",
+      "disabledValue": "4",
+      "requiresRestart": true
     }
   ]
 }
