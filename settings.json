@@ -85,13 +85,13 @@
       "requiresRestart": false
     },
     {
-      "id": "toggle_clipboard",
+      "id": "toggle_vpn",
       "name": "Управление буфером обмена",
-      "description": "Включение или отключение буфера обмена в облаке (Clipboard History / Cloud Clipboard)",
+      "description": "Включение или отключение системных служб Windows, связанных с сетевыми соединениями и VPN",
       "category": "Сеть",
-      "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-clipboard.bat",
-      "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-clipboard-xos-default.bat",
-      "checkCommand": "powershell -command \"(Get-ItemProperty -Path 'HKLM:\\System\\CurrentControlSet\\Services\\cbdhsvc' -Name Start).Start\"",
+      "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-vpn-xos-default.bat",
+      "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-vpn.bat",
+      "checkCommand": "powershell -command \"(Get-ItemProperty -Path 'HKLM:\\SYSTEM\\CurrentControlSet\\Services\\RasMan' -Name Start).Start\"",
       "enabledValue": "2",
       "disabledValue": "4",
       "requiresRestart": false
