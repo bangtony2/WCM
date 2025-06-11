@@ -128,8 +128,8 @@
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\hyperv-enable.bat",
       "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\hyperv-disable.bat",
       "checkCommand": "powershell -command \"(Get-ItemProperty -Path 'HKLM:\\System\\ControlSet001\\Services\\HyperVideo' -Name Start).Start\"",
-      "enabledValue": "4",
-      "disabledValue": "3",
+      "enabledValue": "3",
+      "disabledValue": "4",
       "requiresRestart": true
     }
   ]
