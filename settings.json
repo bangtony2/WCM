@@ -39,7 +39,7 @@
         {
       "id": "toggle_superfetch",
       "name": "Управление SysMain (Superfetch)",
-      "description": "Включение или отключение SysMain",
+      "description": "Включение или отключение SysMain. лучше выключить",
       "category": "Система",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-superfetch.bat",
       "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-superfetch-xos-default.bat",
@@ -51,7 +51,7 @@
     {
       "id": "toggle_themes",
       "name": "Управление темами",
-      "description": "Включение или отключение тем",
+      "description": "Включение или отключение тем. лучше выключить",
       "category": "Персонализация",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-themes.bat",
       "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-themes-xos-default.bat",
@@ -63,7 +63,7 @@
     {
       "id": "toggle_diagnostics",
       "name": "Управление диагностиками",
-      "description": "Включение или отключение встроенных диагностических служб и задач Windows",
+      "description": "Включение или отключение встроенных диагностических служб и задач Windows. лучше выключить",
       "category": "Система",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-diagnostics.bat",
       "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-diagnostics-xos-default.bat",
@@ -87,7 +87,7 @@
     {
       "id": "toggle_vpn",
       "name": "Управление VPN",
-      "description": "Включение или отключение системных служб Windows, связанных с сетевыми соединениями и VPN",
+      "description": "Включение или отключение системных служб Windows, связанных с сетевыми соединениями и VPN. лучше включить",
       "category": "Сеть",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-vpn-xos-default.bat",
       "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-vpn.bat",
@@ -99,7 +99,7 @@
     {
       "id": "toggle_fse",
       "name": "Управление FSE GameDVR",
-      "description": "Включение или отключение FSE (Fullscreen Exclusive)",
+      "description": "Включение или отключение FSE (Fullscreen Exclusive) включен - быстрый альтаб, выключен - медленный",
       "category": "Игры",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-fse-(slow-alt-tab).bat",
       "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-fse-(fast-alt-tab).bat",
@@ -111,7 +111,7 @@
     {
       "id": "toggle_cdrom",
       "name": "Управление FSE GameDVR",
-      "description": "Включение или отключение службы CD-ROM (дисковод) в Windows",
+      "description": "Включение или отключение службы CD-ROM (дисковод) в Windows. лучше выключить",
       "category": "Система",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\cdrom-enable.bat",
       "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\cdrom-disable-xos-default.bat",
@@ -128,8 +128,8 @@
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\hyperv-enable.bat",
       "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\hyperv-disable.bat",
       "checkCommand": "powershell -command \"(Get-ItemProperty -Path 'HKLM:\\System\\ControlSet001\\Services\\HyperVideo' -Name Start).Start\"",
-      "enabledValue": "1",
-      "disabledValue": "4",
+      "enabledValue": "4",
+      "disabledValue": "3",
       "requiresRestart": true
     }
   ]
