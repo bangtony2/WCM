@@ -10,7 +10,7 @@
       "checkCommand": "powershell -command \"Get-Service bthserv | Select-Object -ExpandProperty Status\"",
       "enabledValue": "Running",
       "disabledValue": "Stopped",
-      "requiresRestart": false
+      "requiresRestart": true
     },
     {
       "id": "toggle_printer",
@@ -22,7 +22,7 @@
       "checkCommand": "powershell -command \"Get-Service Spooler | Select-Object -ExpandProperty Status\"",
       "enabledValue": "Running",
       "disabledValue": "Stopped",
-      "requiresRestart": false
+      "requiresRestart": true
     },
     {
       "id": "toggle_extensions",
