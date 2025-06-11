@@ -2,7 +2,7 @@
   "windowsSettings": [
     {
       "id": "toggle_bluetooth",
-      "name": "Управление Bluetooth",
+      "name": "Bluetooth",
       "description": "Включение или отключение Bluetooth в системе",
       "category": "Система",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-bluetooth.bat",
@@ -26,8 +26,8 @@
     },
     {
       "id": "toggle_extensions",
-      "name": "Управление расширением",
-      "description": "Включение или отключение показ расширений файлов",
+      "name": "Расширения файлов ",
+      "description": "Включение или отключение показ расширений файлов (например .bat .txt)",
       "category": "Система",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\extensions-enable.bat",
       "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\extensions-disable.bat",
@@ -38,7 +38,7 @@
     },
         {
       "id": "toggle_superfetch",
-      "name": "Управление SysMain (Superfetch)",
+      "name": "SysMain (Superfetch)",
       "description": "Включение или отключение SysMain. лучше выключить",
       "category": "Система",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-superfetch.bat",
@@ -50,7 +50,7 @@
     },
     {
       "id": "toggle_themes",
-      "name": "Управление темами",
+      "name": "Темы",
       "description": "Включение или отключение тем. лучше выключить",
       "category": "Персонализация",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-themes.bat",
@@ -74,7 +74,7 @@
     },
     {
       "id": "toggle_wifi",
-      "name": "Управление Wi-Fi",
+      "name": "Wi-Fi",
       "description": "Включение или отключение Wi-Fi",
       "category": "Сеть",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-wifi-xos-default.bat",
@@ -86,7 +86,7 @@
     },
     {
       "id": "toggle_vpn",
-      "name": "Управление VPN",
+      "name": "VPN",
       "description": "Включение или отключение системных служб Windows, связанных с сетевыми соединениями и VPN. лучше включить",
       "category": "Сеть",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-vpn-xos-default.bat",
@@ -110,7 +110,7 @@
     },
     {
       "id": "toggle_cdrom",
-      "name": "Управление FSE GameDVR",
+      "name": "FSE GameDVR",
       "description": "Включение или отключение службы CD-ROM (дисковод) в Windows. лучше выключить",
       "category": "Система",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\cdrom-enable.bat",
@@ -122,7 +122,7 @@
     },
     {
       "id": "toggle_hyperv",
-      "name": "Управление Hyperv",
+      "name": "Hyperv",
       "description": "Включение или отключение Hyperv",
       "category": "Система",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\hyperv-enable.bat",
@@ -131,6 +131,18 @@
       "enabledValue": "3",
       "disabledValue": "4",
       "requiresRestart": true
+      {,
+        "id": "toggle_timeformat",
+        "name": "Переключение формата времени",
+        "description": "Переключает между русским и американским форматом даты и времени",
+        "category": "Персонализация",
+        "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\set_time_date_russian.bat",
+        "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\set_time_date_american.bat",
+        "checkCommand": "powershell -command \"(Get-ItemProperty -Path 'HKCU:\\Control Panel\\International').LocaleName\"",
+        "enabledValue": "ru-RU",
+        "disabledValue": "en-US",
+        "requiresRestart": false
+      }
     }
   ]
 }
