@@ -110,7 +110,7 @@
     },
     {
       "id": "toggle_cdrom",
-      "name": "FSE GameDVR",
+      "name": "CD-ROM",
       "description": "Включение или отключение службы CD-ROM (дисковод) в Windows. лучше выключить",
       "category": "Система",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\cdrom-enable.bat",
