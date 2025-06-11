@@ -7,3 +7,5 @@ reg add "HKCU\Control Panel\International" /v sLongDate /t REG_SZ /d "dddd, MMMM
 reg add "HKCU\Control Panel\International" /v sDate /t REG_SZ /d "/" /f
 reg add "HKCU\Control Panel\International" /v Locale /t REG_SZ /d "00000409" /f
 reg add "HKCU\Control Panel\International" /v LocaleName /t REG_SZ /d "en-US" /f
+taskkill /f /im explorer.exe
+start explorer.exe
