@@ -131,18 +131,18 @@
       "enabledValue": "3",
       "disabledValue": "4",
       "requiresRestart": true
-      {,
-        "id": "toggle_timeformat",
-        "name": "Переключение формата времени",
-        "description": "Переключает между русским и американским форматом даты и времени",
-        "category": "Персонализация",
-        "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\set_time_date_russian.bat",
-        "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\set_time_date_american.bat",
-        "checkCommand": "powershell -command \"(Get-ItemProperty -Path 'HKCU:\\Control Panel\\International').LocaleName\"",
-        "enabledValue": "ru-RU",
-        "disabledValue": "en-US",
-        "requiresRestart": false
-      }
+    },
+    {
+      "id": "toggle_timeformat",
+      "name": "Переключение формата времени",
+      "description": "Переключает между русским и американским форматом даты и времени",
+      "category": "Персонализация",
+      "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\set_time_date_russian.bat",
+      "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\set_time_date_american.bat",
+      "checkCommand": "powershell -command \"(Get-ItemProperty -Path 'HKCU:\\Control Panel\\International').LocaleName\"",
+      "enabledValue": "ru-RU",
+      "disabledValue": "en-US",
+      "requiresRestart": false
     }
   ]
 }
