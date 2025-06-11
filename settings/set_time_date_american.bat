@@ -1,5 +1,4 @@
 @echo off
-:: Возврат формата даты и времени к американскому
 reg add "HKCU\Control Panel\International" /v sShortTime /t REG_SZ /d "h:mm tt" /f
 reg add "HKCU\Control Panel\International" /v sTimeFormat /t REG_SZ /d "h:mm:ss tt" /f
 reg add "HKCU\Control Panel\International" /v sTime /t REG_SZ /d ":" /f
