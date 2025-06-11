@@ -77,12 +77,24 @@
       "name": "Управление Wi-Fi",
       "description": "Включение или отключение Wi-Fi",
       "category": "Сеть",
-      "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-wifi-xos-default.bat",
-      "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-wifi.bat",
+      "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-wifi.bat",
+      "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-wifi-xos-default.bat",
       "checkCommand": "powershell -command \"(Get-ItemProperty -Path 'HKLM:\\System\\CurrentControlSet\\Services\\WlanSvc' -Name Start).Start\"",
       "enabledValue": "2",
       "disabledValue": "4",
-      "requiresRestart": true
+      "requiresRestart": false
+    },
+    {
+      "id": "toggle_clipboard",
+      "name": "Управление буфером обмена",
+      "description": "Включение или отключение буфера обмена в облаке (Clipboard History / Cloud Clipboard)",
+      "category": "Сеть",
+      "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-clipboard.bat",
+      "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-clipboard-xos-default.bat",
+      "checkCommand": "powershell -command \"(Get-ItemProperty -Path 'HKLM:\\System\\CurrentControlSet\\Services\\cbdhsvc' -Name Start).Start\"",
+      "enabledValue": "2",
+      "disabledValue": "4",
+      "requiresRestart": false
     }
   ]
 }
