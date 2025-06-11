@@ -23,6 +23,18 @@
       "enabledValue": "Running",
       "disabledValue": "Stopped",
       "requiresRestart": false
+    },
+    {
+      "id": "toggle_bluetooth",
+      "name": "Управление Расширением",
+      "description": "Включение или отключение показ расширений файлов",
+      "category": "Система",
+      "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\extensions-enable.bat",
+      "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\extensions-disable.bat",
+      "checkCommand": "powershell -command \"i(Get-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced' -Name HideFileExt).HideFileExt\"",
+      "enabledValue": "0",
+      "disabledValue": "1",
+      "requiresRestart": false
     }
   ]
 }
