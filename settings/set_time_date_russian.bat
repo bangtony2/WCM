@@ -1,5 +1,4 @@
 @echo off
-:: Установка русского формата времени и даты
 reg add "HKCU\Control Panel\International" /v sShortTime /t REG_SZ /d "HH:mm" /f
 reg add "HKCU\Control Panel\International" /v sTimeFormat /t REG_SZ /d "HH:mm:ss" /f
 reg add "HKCU\Control Panel\International" /v sTime /t REG_SZ /d ":" /f
