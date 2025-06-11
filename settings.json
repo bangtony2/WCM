@@ -86,7 +86,7 @@
     },
     {
       "id": "toggle_vpn",
-      "name": "Управление буфером обмена",
+      "name": "Управление VPN",
       "description": "Включение или отключение системных служб Windows, связанных с сетевыми соединениями и VPN",
       "category": "Сеть",
       "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-vpn-xos-default.bat",
@@ -95,6 +95,42 @@
       "enabledValue": "2",
       "disabledValue": "4",
       "requiresRestart": false
+    },
+    {
+      "id": "toggle_fse",
+      "name": "Управление FSE GameDVR",
+      "description": "Включение или отключение FSE (Fullscreen Exclusive)",
+      "category": "Игры",
+      "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\enable-fse-(slow-alt-tab).bat",
+      "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\disable-fse-(fast-alt-tab).bat",
+      "checkCommand": "powershell -command \"(Get-ItemProperty -Path 'HKCU:\\System\\GameConfigStore' -Name GameDVR_HonorUserFSEBehaviorMode).GameDVR_HonorUserFSEBehaviorMode\"",
+      "enabledValue": "1",
+      "disabledValue": "0",
+      "requiresRestart": false
+    },
+    {
+      "id": "toggle_cdrom",
+      "name": "Управление FSE GameDVR",
+      "description": "Включение или отключение службы CD-ROM (дисковод) в Windows",
+      "category": "Система",
+      "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\cdrom-enable.bat",
+      "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\cdrom-disable-xos-default.bat",
+      "checkCommand": "powershell -command \"(Get-ItemProperty -Path 'HKLM:\\SYSTEM\\CurrentControlSet\\Services\\cdrom' -Name Start).Start\"",
+      "enabledValue": "1",
+      "disabledValue": "4",
+      "requiresRestart": false
+    },
+    {
+      "id": "toggle_hyperv",
+      "name": "Управление Hyperv",
+      "description": "Включение или отключение Hyperv",
+      "category": "Система",
+      "enableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\hyperv-enable.bat",
+      "disableScript": "C:\\Users\\%USERNAME%\\Documents\\app-config\\settings\\hyperv-disable.bat",
+      "checkCommand": "powershell -command \"(Get-ItemProperty -Path 'HKLM:\\System\\ControlSet001\\Services\\HyperVideo' -Name Start).Start\"",
+      "enabledValue": "1",
+      "disabledValue": "4",
+      "requiresRestart": true
     }
   ]
 }
