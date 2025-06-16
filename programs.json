@@ -171,6 +171,18 @@
         "C:\\Program Files (x86)\\Radmin VPN\\RvRvpnGui.exe"
       ]
     },
+      "name": "WinRAR",
+      "programsandfeature": "WinRAR 7.11",
+      "open": true,
+      "openpath": "C:\\Program Files\\WinRAR\\WinRAR.exe",
+      "googleDriveUrl": "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-711ru.exe",
+      "installerFilename": "winrar-x64-711ru.exe",
+      "description": "WinRAR",
+      "iconPath": "winrar.png",
+      "installPaths": [
+        "C:\\Program Files\\WinRAR\\WinRAR.exe"
+      ]
+    },
     {
       "name": "K-Lite Codec Pack Full",
       "programsandfeature": "K-Lite Codec Pack 19.0.1 Full",
