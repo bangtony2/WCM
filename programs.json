@@ -92,6 +92,20 @@
       ]
     },
     {
+      "name": "Python 3.12.2",
+      "programsandfeature": "Python 3.12.2 (64-bit)",
+      "proccesname": "Python.exe",
+      "open": true,
+      "openpath": "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "googleDriveUrl": "https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe",
+      "installerFilename": "python-3.12.2-amd64.exe",
+      "description": "Питон",
+      "iconPath": "python.png",
+      "installPaths": [
+        "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+      ]
+    },
+    {
       "name": "Visual Studio Code",
       "proccesname": "Code.exe",
       "open": true,
