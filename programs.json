@@ -106,6 +106,19 @@
       ]
     },
     {
+      "name": "Node JS",
+      "proccesname": "nodejs.exe",
+      "chocoCommand": "nodejs",
+      "programsandfeature": "Node JS",
+      "open": false,
+      "openpath": "C:\\Program Files (x86)\\Steam2\\steam.exe",  
+      "description": "Жиес",
+      "iconPath": "nodejs.png",
+      "installPaths": [
+        "C:\\Program Files (x86)\\Steam2\\steam.exe"
+      ]
+    },
+    {
       "name": "Visual Studio Code",
       "proccesname": "Code.exe",
       "open": true,
