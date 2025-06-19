@@ -110,12 +110,12 @@
       "proccesname": "nodejs.exe",
       "chocoCommand": "nodejs",
       "programsandfeature": "Node JS",
-      "open": false,
-      "openpath": "C:\\Program Files (x86)\\Steam2\\steam.exe",  
+      "open": true,
+      "openpath": "C:\\Program Files\\nodejs\\node.exe",  
       "description": "Жиес",
       "iconPath": "nodejs.png",
       "installPaths": [
-        "C:\\Program Files (x86)\\Steam2\\steam.exe"
+        "C:\\Program Files\\nodejs\\node.exe"
       ]
     },
     {
