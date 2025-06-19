@@ -159,6 +159,19 @@
       ]
     },
     {
+      "name": "Visual C Runtimes All in One",
+      "proccesname": "vsr.exe",
+      "open": false,
+      "delete": false,
+      "openpath": "C:\\Program Files2\\Microsoft VS Code\\Code.exe",
+      "chocoCommand": "vcredist-all",
+      "description": "Библы",
+      "iconPath": "vcr.png",
+      "installPaths": [
+        "C:\\Program Files2\\Microsoft VS Code\\Code.exe"
+      ]
+    },
+    {
       "name": "AyuGram",
       "proccesname": "AyuGram.exe",
       "open": true,
@@ -277,7 +290,7 @@
       ]
     },
     {
-      "name": "Microphone Volume Service",
+      "name": "Mic Volume Service Installer",
       "folderdelete": false,
       "proccesname": "pythonservice.exe",
       "open": false,
@@ -288,6 +301,20 @@
       "installerFilename": "MicVolumeService_Setup.exe",
       "installPaths": [
         "C:\\Users\\%USERNAME%\\Documents\\app-config\\MicVolumeService_Setup.exe"
+      ]
+    },
+    {
+      "name": "Edit Stuff Installer",
+      "folderdelete": false,
+      "proccesname": "winrar.exe",
+      "open": false,
+      "openpath": "C:\\Users\\%USERNAME%\\Documents\\app-config\\EditStuffInstaller.exe",
+      "description": "Edit Stuff",
+      "iconPath": "editstuff.png",
+      "googleDriveUrl": "https://drive.usercontent.google.com/download?id=18ZaBqQ9wHmWGxb2ZxTqu6tZ86syuidvO&export=download&authuser=0&confirm=t&uuid=5abe272c-762b-4961-aa45-f41e6692ffa7&at=AN8xHopvrWwMxO92e2cipGwg1l-c%3A1750361480059",
+      "installerFilename": "EditStuffInstaller.exe",
+      "installPaths": [
+        "C:\\Users\\%USERNAME%\\Documents\\app-config\\EditStuffInstaller.exe"
       ]
     },
     {
