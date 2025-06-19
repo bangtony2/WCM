@@ -281,13 +281,13 @@
       "folderdelete": false,
       "proccesname": "pythonservice.exe",
       "open": false,
-      "openpath": "C:\\Users\\%USERNAME%\\Documents\\MicVolumeService\\mic_volume_service.py",
+      "openpath": "C:\\Users\\%USERNAME%\\Documents\\app-config\\MicVolumeService_Setup.exe",
       "description": "Фикс микро",
       "iconPath": "micfix.png",
       "googleDriveUrl": "https://drive.usercontent.google.com/download?id=1YfMS7JQz26QdMeo5nCEcLq_TlePRPN27&export=download&authuser=0&confirm=t&uuid=753c48d6-ddd4-4fce-93f7-4e57757ea29d&at=AN8xHoqJBgdQRXZwWXTW6UeOUxwz%3A1750354958853",
       "installerFilename": "MicVolumeService_Setup.exe",
       "installPaths": [
-        "C:\\Users\\%USERNAME%\\Documents\\MicVolumeService\\mic_volume_service.py"
+        "C:\\Users\\%USERNAME%\\Documents\\app-config\\MicVolumeService_Setup.exe"
       ]
     },
     {
