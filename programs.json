@@ -278,6 +278,7 @@
     },
     {
       "name": "Microphone Volume Service",
+      "folderdelete": false,
       "proccesname": "pythonservice.exe",
       "open": false,
       "openpath": "C:\\Users\\%USERNAME%\\Documents\\MicVolumeService\\mic_volume_service.py",
