@@ -119,6 +119,19 @@
       ]
     },
     {
+      "name": "Git",
+      "proccesname": "git-cmd.exe",
+      "chocoCommand": "git",
+      "programsandfeature": "Git",
+      "open": true,
+      "openpath": "C:\\Program Files\\Git\\git-cmd.exe",  
+      "description": "Гит",
+      "iconPath": "git.png",
+      "installPaths": [
+        "C:\\Program Files\\Git\\git-cmd.exe"
+      ]
+    },
+    {
       "name": "Visual Studio Code",
       "proccesname": "Code.exe",
       "open": true,
