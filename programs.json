@@ -73,7 +73,7 @@
       "folderdelete": false,
       "description": "Мод для дискорда",
       "iconPath": "vencord.png",
-      "googleDriveUrl": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/556771238/e6f209d5-f5ac-4b74-8139-eeaefa7dfa73?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250625%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250625T152831Z&X-Amz-Expires=1800&X-Amz-Signature=564c0c024ac93bec538d5da1d1229c7b433002b875f9ccce01e075015eb4a2c6&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DVencordInstaller.exe&response-content-type=application%2Foctet-stream",
+      "googleDriveUrl": "https://drive.usercontent.google.com/download?id=1G0kCxMb5vf6iZ5jBEGff8UU88pVgV-Pv&export=download&confirm=t&uuid=583b9c86-f55f-46c0-b9ea-63efc1e5c89a",
       "installerFilename": "VencordInstaller.exe",
       "installPaths": [
         "C:\\Users\\%USERNAME%\\Documents\\app-config\\VencordInstaller.exe"
