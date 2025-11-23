@@ -7,7 +7,7 @@
       "description": "Веб-браузер",
       "open": true,
       "openpath": "C:\\Users\\%USERNAME%\\AppData\\Local\\BraveSoftware\\Brave-Browser-Beta\\Application\brave.exe",
-      "iconPath": "googlechrome.png",
+      "iconPath": "brave.png",
       "installPaths": [
         "C:\\Users\\%USERNAME%\\AppData\\Local\\BraveSoftware\\Brave-Browser-Beta\\Application\brave.exe"
       ]
@@ -343,4 +343,5 @@
     }
   ]
 }
+
 
