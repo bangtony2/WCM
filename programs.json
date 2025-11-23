@@ -1,16 +1,15 @@
 {
   "programs": [
     {
-      "name": "Thorium",
-      "proccesname": "thorium.exe",
-      "description": "Основной браузер",
+      "name": "Brave Nightly",
+      "proccesname": "brave.exe",
+      "chocoCommand": "brave-nightly",
+      "description": "Веб-браузер",
       "open": true,
-      "openpath": "C:\\Users\\%USERNAME%\\AppData\\Local\\Thorium\\Application\\thorium.exe",
-      "iconPath": "thorium.png",
-      "googleDriveUrl": "https://github.com/Alex313031/Thorium-Win/releases/download/M130.0.6723.174/thorium_AVX2_mini_installer.exe",
-      "installerFilename": "thorium_AVX2_mini_installer.exe",
+      "openpath": "C:\\Users\\%USERNAME%\\AppData\\Local\\BraveSoftware\\Brave-Browser-Beta\\Application\brave.exe",
+      "iconPath": "googlechrome.png",
       "installPaths": [
-        "C:\\Users\\%USERNAME%\\AppData\\Local\\Thorium\\Application\\thorium.exe"
+        "C:\\Users\\%USERNAME%\\AppData\\Local\\BraveSoftware\\Brave-Browser-Beta\\Application\brave.exe"
       ]
     },
     {
@@ -344,3 +343,4 @@
     }
   ]
 }
+
