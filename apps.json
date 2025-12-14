@@ -1,29 +1,200 @@
 {
   "apps": [
     {
-      "name": "Postman",
-      "winget": "Postman.Postman",
-      "category": "development",
-      "info": "API development environment.",
-      "link": "https://www.postman.com/",
-      "icon": "https://www.postman.com/_ar-assets/images/favicon-1-48.png"
+      "name": "Brave Nightly",
+      "choco": "choco install brave-nightly -y",
+      "category": "Browser",
+      "link": "https://brave.com/",
+      "icon": "https://brave.com/static-assets/images/brave-logo-sans-text.svg"
     },
     {
-      "name": "Zoom",
-      "choco": "choco install zoom -y",
-      "category": "Meeting",
-      "info": "Just Zoom",
-      "link": "https://www.zoom.com/",
-      "icon": "https://www.citypng.com/public/uploads/preview/download-round-blue-zoom-logo-icon-png-701751695039210sjnvxytv5d.png"
+      "name": "Google Chrome",
+      "choco": "choco install googlechrome -y",
+      "category": "Browser",
+      "link": "https://www.google.com/chrome/",
+      "icon": "https://www.google.com/chrome/static/images/chrome-logo-m100.svg"
+    },
+    {
+      "name": "Steam",
+      "choco": "choco install steam -y",
+      "category": "Gaming",
+      "link": "https://store.steampowered.com/",
+      "icon": "https://store.steampowered.com/favicon.ico"
+    },
+    {
+      "name": "Nvidia App",
+      "choco": "choco install nvidia-app -y",
+      "category": "Utilities",
+      "link": "https://www.nvidia.com/",
+      "icon": "https://www.nvidia.com/favicon.ico"
+    },
+    {
+      "name": "Discord",
+      "gdrive": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9194/DiscordSetup.exe",
+      "installerFilename": "DiscordSetup.exe",
+      "category": "Communication",
+      "link": "https://discord.com/",
+      "icon": "https://static.vecteezy.com/system/resources/previews/006/892/625/non_2x/discord-logo-icon-editorial-free-vector.jpg"
     },
     {
       "name": "Vencord",
       "gdrive": "https://drive.usercontent.google.com/download?id=1G0kCxMb5vf6iZ5jBEGff8UU88pVgV-Pv&export=download&confirm=t&uuid=583b9c86-f55f-46c0-b9ea-63efc1e5c89a",
       "installerFilename": "VencordInstaller.exe",
       "category": "Utilities",
-      "info": "Utility for discord",
       "link": "https://vencord.dev/",
       "icon": "https://vencord.dev/assets/logo.png"
+    },
+    {
+      "name": "Lightshot",
+      "choco": "choco install lightshot.install -y",
+      "category": "Utilities",
+      "link": "https://app.prntscr.com/",
+      "icon": "https://st.prntscr.com/2023/07/24/0635/img/icon_lightshot.png"
+    },
+    {
+      "name": "Python 3.12.2",
+      "gdrive": "https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe",
+      "installerFilename": "python-3.12.2-amd64.exe",
+      "category": "Development",
+      "link": "https://www.python.org/",
+      "icon": "https://www.python.org/static/favicon.ico"
+    },
+    {
+      "name": "Node.js",
+      "choco": "choco install nodejs -y",
+      "category": "Development",
+      "link": "https://nodejs.org/",
+      "icon": "https://nodejs.org/static/images/favicons/favicon.png"
+    },
+    {
+      "name": "Git",
+      "choco": "choco install git -y",
+      "category": "Development",
+      "link": "https://git-scm.com/",
+      "icon": "https://git-scm.com/favicon.ico"
+    },
+    {
+      "name": "Visual Studio Code",
+      "choco": "choco install vscode -y",
+      "category": "Development",
+      "link": "https://code.visualstudio.com/",
+      "icon": "https://code.visualstudio.com/favicon.ico"
+    },
+    {
+      "name": "SpotX",
+      "gdrive": "https://drive.usercontent.google.com/download?id=1gDMjleoubg0a7q97igtqFSqUyR1rpRw-&export=download&authuser=0&confirm=t&uuid=c8003afe-5246-459b-bf0b-9238cbe5cb70&at=ALoNOgnZkY-Y4H9r7IwCisNM7Puj%3A1749414600915",
+      "installerFilename": "SpotifySetup.exe",
+      "category": "Media",
+      "link": "https://spotify.com/",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1161px-Spotify_icon.svg.png"
+    },
+    {
+      "name": "uTorrent",
+      "gdrive": "https://drive.usercontent.google.com/download?id=1vPnhfUYVZlikZGKKjKdXIoB23WAGr020&export=download&authuser=0&confirm=t&uuid=4eafbb17-d064-43ea-a625-da247d51a666&at=ALoNOgmE6iZfQrVgSH683_igVSSF%3A1749412266437",
+      "installerFilename": "utorrent.bat",
+      "category": "Utilities",
+      "link": "https://www.utorrent.com/",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/9/9f/UTorrent_%28logo%29.png"
+    },
+    {
+      "name": "Visual C++ Runtimes All in One",
+      "choco": "choco install vcredist-all -y",
+      "category": "Development",
+      "link": "https://www.microsoft.com/",
+      "icon": "https://www.microsoft.com/favicon.ico"
+    },
+    {
+      "name": "AyuGram",
+      "gdrive": "https://github.com/AyuGram/AyuGramDesktop/releases/download/v5.14.3/AyuGram.exe",
+      "installerFilename": "AyuGram.exe",
+      "category": "Communication",
+      "link": "https://github.com/AyuGram/AyuGramDesktop",
+      "icon": "https://avatars.githubusercontent.com/u/131606289?s=280&v=4"
+    },
+    {
+      "name": "Microsoft PowerToys",
+      "choco": "choco install powertoys -y",
+      "category": "Utilities",
+      "link": "https://github.com/microsoft/PowerToys",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/2020_PowerToys_Icon.svg/2048px-2020_PowerToys_Icon.svg.png"
+    },
+    {
+      "name": "Radmin VPN",
+      "gdrive": "https://download.radmin-vpn.com/download/files/Radmin_VPN_1.4.4642.1.exe",
+      "installerFilename": "Radmin_VPN_1.4.4642.1.exe",
+      "category": "Networking",
+      "link": "https://www.radmin-vpn.com/",
+      "icon": "https://image.pngaaa.com/982/5734982-middle.png"
+    },
+    {
+      "name": "WinRAR",
+      "gdrive": "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-711ru.exe",
+      "installerFilename": "winrar-x64-711ru.exe",
+      "category": "Utilities",
+      "link": "https://www.win-rar.com/",
+      "icon": "https://www.win-rar.com/favicon.ico"
+    },
+    {
+      "name": "K-Lite Codec Pack Full",
+      "gdrive": "https://drive.usercontent.google.com/download?id=1dDPE5MoHZn8xt2AlVIdvEihhOO4qwRIR&export=download&authuser=0&confirm=t&uuid=5812715c-54ec-4922-9e61-af6480e75667&at=AN8xHoohE5_jiLF7AKDUDaqmOhsn%3A1750182607897",
+      "installerFilename": "K-Lite_Codec_Pack_1901_Full.exe",
+      "category": "Media",
+      "link": "https://codecguide.com/",
+      "icon": "https://www.it.unlv.edu/sites/default/files/styles/250_width/public/sites/default/files/assets/software/logos/k-lite-codec-pack.png?itok=i2aggotX"
+    },
+    {
+      "name": "Windhawk",
+      "choco": "choco install windhawk -y",
+      "category": "Utilities",
+      "link": "https://windhawk.net/",
+      "icon": "https://windhawk.net/favicon.ico"
+    },
+    {
+      "name": "AutoHotkey",
+      "choco": "choco install autohotkey -y",
+      "category": "Utilities",
+      "link": "https://www.autohotkey.com/",
+      "icon": "https://www.autohotkey.com/favicon.ico"
+    },
+    {
+      "name": "Voicemeeter Banana",
+      "gdrive": "https://drive.usercontent.google.com/download?id=1sEv7g8osJgXKgt9ZlZxejJ85Xlq6VVmj&export=download&authuser=0&confirm=t&uuid=02bdbdde-551c-48f3-89f6-734f107ea4e1&at=ALoNOgmQKPfAxLvUrb1C5iP7ALId%3A1749418163971",
+      "installerFilename": "voicemeeterprosetup.exe",
+      "category": "Media",
+      "link": "https://vb-audio.com/Voicemeeter/banana.htm",
+      "icon": "https://img.icons8.com/color/512/voicemeeter-banana.png"
+    },
+    {
+      "name": "Equalizer APO",
+      "gdrive": "https://drive.usercontent.google.com/download?id=1wvqzzA7B6a3KuFQh3aEP8scIOe4oNiX6&export=download&authuser=0&confirm=t&uuid=90468a82-161a-4c66-8520-0c7fac3fc835&at=ALoNOgnrsvjFnRF6pFD3GZJEN58_%3A1749396745483",
+      "installerFilename": "EqualizerAPO64-1.2.1.exe",
+      "category": "Media",
+      "link": "https://sourceforge.net/projects/equalizerapo/",
+      "icon": "https://sourceforge.net/favicon.ico"
+    },
+    {
+      "name": "Mic Volume Service Installer",
+      "gdrive": "https://drive.usercontent.google.com/download?id=1YfMS7JQz26QdMeo5nCEcLq_TlePRPN27&export=download&authuser=0&confirm=t&uuid=753c48d6-ddd4-4fce-93f7-4e57757ea29d&at=AN8xHoqJBgdQRXZwWXTW6UeOUxwz%3A1750354958853",
+      "installerFilename": "MicVolumeService_Setup.exe",
+      "category": "Utilities",
+      "link": "#",
+      "icon": "https://www.citypng.com/public/uploads/preview/yellow-computer-folder-icon-download-png-7017516950339154cbr0m5roh.png"
+    },
+    {
+      "name": "Edit Stuff Installer",
+      "gdrive": "https://drive.usercontent.google.com/download?id=1mNEQppFXW1QqmBzWc0Bqjo2DtYOeCcZX&export=download&authuser=1&confirm=t&uuid=5bf3a3de-17bb-4c7e-b711-6919c2cb827d&at=AN8xHoqj1km81wSmQJMtHcmPtUzw:1753525878738",
+      "installerFilename": "EditStuffInstaller.exe",
+      "category": "Utilities",
+      "link": "#",
+      "icon": "https://www.citypng.com/public/uploads/preview/yellow-computer-folder-icon-download-png-7017516950339154cbr0m5roh.png"
+    },
+    {
+      "name": "ReaPlugs",
+      "gdrive": "https://drive.usercontent.google.com/download?id=1Q3bSRFcqmJP5TCUP8-PBvh56BtHqZp-3&export=download&confirm=t&uuid=5da22065-ef32-4aad-a1e3-82d3be78d175",
+      "installerFilename": "reaplugs236_x64-install.exe",
+      "category": "Media",
+      "link": "https://www.reaper.fm/",
+      "icon": "https://www.reaper.fm/favicon.ico"
     }
   ]
 }
