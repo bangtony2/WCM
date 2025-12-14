@@ -1,0 +1,29 @@
+{
+  "apps": [
+    {
+      "name": "Postman",
+      "winget": "Postman.Postman",
+      "category": "development",
+      "info": "API development environment.",
+      "link": "https://www.postman.com/",
+      "icon": "https://www.postman.com/_ar-assets/images/favicon-1-48.png"
+    },
+    {
+      "name": "Zoom",
+      "choco": "choco install zoom -y",
+      "category": "Meeting",
+      "info": "Just Zoom",
+      "link": "https://www.zoom.com/",
+      "icon": "https://www.citypng.com/public/uploads/preview/download-round-blue-zoom-logo-icon-png-701751695039210sjnvxytv5d.png"
+    },
+    {
+      "name": "Vencord",
+      "gdrive": "https://drive.usercontent.google.com/download?id=1G0kCxMb5vf6iZ5jBEGff8UU88pVgV-Pv&export=download&confirm=t&uuid=583b9c86-f55f-46c0-b9ea-63efc1e5c89a",
+      "installerFilename": "VencordInstaller.exe",
+      "category": "Utilities",
+      "info": "Utility for discord",
+      "link": "https://vencord.dev/",
+      "icon": "https://vencord.dev/assets/logo.png"
+    }
+  ]
+}
